@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Roots</title>
+</head>
+<body>
+<button type="button" onclick="roots()"><b>CLICK ME</b></button>
+<script type="text/javascript">
+			function roots() {
+			var a,b,c;
+			a = prompt("Enter the first number");
+			b = prompt("Enter the second number");
+			c = prompt("Enter the third number");
+
+			var D = Math.sqrt(b * b - 4 * a * c);
+			var x1 = (-b + D)/(2*a);
+			var x2 = (-b - D)/(2*a);
+			
+			alert("First Root : " + x1);
+			alert("Second Root : " + x2);
+		}
+	</script>
+
+</body>
+</html>
