@@ -1,0 +1,96 @@
+body {
+    font-size: 16px;
+    font-family: 'Comic Neue', cursive;
+    color : Black;
+    background-color: Grey;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: Black;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: Red;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: Brown;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px White;
+}
+
+#nav-list {
+    background-color: Grey;
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: Black;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: Black;
+    background-color: LightGrey;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid Brown;
+}
+
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 40px;
+}
+
+#main-content h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#main-section {
+    background-color: LightGrey;
+    box-shadow: 0 0 50px Black;
+    padding: 30px;
+}
+
+/** END HOME PAGE **/
