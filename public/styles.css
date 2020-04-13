@@ -1,0 +1,21 @@
+body
+{
+	color: Black;
+	background-color: Yellow;
+}
+h1
+{
+	color: Blue;
+	background-color: Red;
+}
+table, td, tr, th
+{
+    background-color: White;
+	 border: 1px solid black;
+	 padding: 5px;
+	 font-size: 1em;
+}
+table
+{
+	width: 100%;
+}
